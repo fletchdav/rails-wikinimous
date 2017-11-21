@@ -1,0 +1,39 @@
+body {
+  margin: 0px 0px;
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
+  color: #18243A;
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 5px;
+  font-weight: lighter;
+}
+
+ul {
+list-style: none;
+}
+
+h2 {
+  margin-bottom: 2px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(155,205,237,0.3);
+  margin: 0px 0px;
+  .home, .new_article {
+    padding : 10px;
+  }
+}
+
+
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/

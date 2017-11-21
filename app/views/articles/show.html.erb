@@ -1,0 +1,6 @@
+<h2>  <%= @article.title %> </h2>
+<%= link_to '<i class="fa fa-pencil-square-o" aria-hidden="true"></i>'.html_safe, edit_article_path %>
+<%= link_to '<i class="fa fa-trash" aria-hidden="true"></i>'.html_safe, article_path(@article),
+      method: :delete,
+      data: { confirm: "Are you sure?" } %>
+<p> <%= @article.content %> </p>
